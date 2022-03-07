@@ -1,0 +1,162 @@
+[
+    {
+        "playername": "Matheus",
+        "status": false,
+        "Wins": 2,
+        "Rankinfo": {
+            "wins": 3,
+            "elo": 3
+        }
+    },
+    {
+        "playername": "Guiga",
+        "status": false,
+        "Wins": 2,
+        "Rankinfo": {
+            "wins": 0,
+            "elo": 1
+        }
+    },
+    {
+        "playername": "Chaveiro",
+        "status": false,
+        "Wins": 0,
+        "Rankinfo": {
+            "wins": 0,
+            "elo": 3
+        }
+    },
+    {
+        "playername": "Cipricius",
+        "status": false,
+        "Wins": 2,
+        "Rankinfo": {
+            "wins": 2,
+            "elo": 1
+        }
+    },
+    {
+        "playername": "Alvin",
+        "status": false,
+        "Wins": 2,
+        "Rankinfo": {
+            "wins": 0,
+            "elo": 2
+        }
+    },
+    {
+        "playername": "Lucas",
+        "status": false,
+        "Rankinfo": {
+            "wins": 0,
+            "elo": 2
+        }
+    },
+    {
+        "playername": "Ian",
+        "status": false,
+        "Rankinfo": {
+            "wins": 1,
+            "elo": 2
+        }
+    },
+    {
+        "playername": "Iuri",
+        "status": false,
+        "Rankinfo": {
+            "wins": 1,
+            "elo": 3
+        }
+    },
+    {
+        "playername": "Pedro",
+        "status": false,
+        "Rankinfo": {
+            "wins": 1,
+            "elo": 1
+        }
+    },
+    {
+        "playername": "Rick",
+        "status": false,
+        "Rankinfo": {
+            "wins": 3,
+            "elo": 2
+        }
+    },
+    {
+        "playername": "Italo",
+        "status": false,
+        "Rankinfo": {
+            "wins": 4,
+            "elo": 3
+        }
+    },
+    {
+        "playername": "Pex",
+        "status": false,
+        "Rankinfo": {
+            "wins": 1,
+            "elo": 2
+        }
+    },
+    {
+        "playername": "Diteck",
+        "status": false,
+        "Wins": 0,
+        "Rankinfo": {
+            "wins": 0,
+            "elo": 1
+        }
+    },
+    {
+        "playername": "Dpi",
+        "status": false,
+        "Rankinfo": {
+            "wins": 0,
+            "elo": 1
+        }
+    },
+    {
+        "playername": "Gabriel",
+        "status": false,
+        "Wins": 0,
+        "Rankinfo": {
+            "wins": 1,
+            "elo": 1
+        }
+    },
+    {
+        "playername": "George",
+        "status": false,
+        "Rankinfo": {
+            "wins": 1,
+            "elo": 1
+        }
+    },
+    {
+        "playername": "Bene",
+        "status": false,
+        "Rankinfo": {
+            "wins": 0,
+            "elo": 2
+        }
+    },
+    {
+        "playername": "Gustavo",
+        "status": false,
+        "Wins": 0,
+        "Rankinfo": {
+            "wins": 0,
+            "elo": 1
+        }
+    },
+    {
+        "playername": "Malu",
+        "status": false,
+        "Rankinfo": {
+            "wins": 0,
+            "elo": 2
+        }
+    }
+]
