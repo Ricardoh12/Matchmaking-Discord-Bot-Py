@@ -1,9 +1,10 @@
 
 from discord.ext import commands
 import os
+import tokencode
 
 
-TOKEN = "OTQzNTA1MDU4MTE1NTE4NTI0.Yg0Bjw.SI-Vl__wh4AqSogShhfzbg7eQlU"
+TOKEN = tokencode
 
 #---------------------------------------------------------------
 
