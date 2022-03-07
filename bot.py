@@ -3,7 +3,7 @@ from discord.ext import commands
 import os
 
 
-TOKEN = "OTQzNTA1MDU4MTE1NTE4NTI0.Yg0Bjw.Ims8-eCv-vDvJJScTzUOq5RwN7k"
+TOKEN = "OTQzNTA1MDU4MTE1NTE4NTI0.Yg0Bjw.SI-Vl__wh4AqSogShhfzbg7eQlU"
 
 #---------------------------------------------------------------
 
