@@ -79,11 +79,6 @@ class tier(commands.Cog):
         x = random.randint(1,10)
         await ctx.send(x)
 
-    @commands.command(name="choro",
-                      usage="choro",
-                      description="Xingar teteu de chorão")
-    async def choro(self, ctx):
-        await ctx.send("Uiui Matheus chorando dnv?")
 
     @commands.command(name="online",
                       usage="online",

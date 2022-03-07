@@ -1,7 +1,7 @@
 
 from discord.ext import commands
 import os
-import tokencode
+from tokencode import tokencode
 
 
 TOKEN = tokencode
@@ -16,6 +16,7 @@ for f in os.listdir('./cogs'):
         print(f'{f[:-3].title()} foi iniciado.')
 
 #-------------------------------------------------------------#
+
 @client.event
 async def on_ready():
   print('Entramos como {0.user}' .format(client))
