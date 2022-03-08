@@ -41,19 +41,7 @@ class tier(commands.Cog):
             with open("database/playerstats.json", "w") as save:
                 json.dump(playerstats, save, indent=4)
 
-    @commands.command(name="wins",
-                      usage="wins",
-                      description="wins")
-    async def wins(self, ctx, user):
 
-        Wins = 0
-        userp = user.upper()
-        with open("database/playerstats.json", "r") as data:
-            playerstats = json.load(data)
-            for Player in playerstats:
-                if (Player["playername"].upper()) == userp:
-                    Wins = Wins + Player["Rankinfo"]["wins"]
-                    await ctx.send((user),"possui",(Wins),"vitórias")
 
     @commands.command(name="addwin",
                       usage="addwin",
@@ -104,6 +92,38 @@ class tier(commands.Cog):
                     Player["status"] = False
         with open("database/playerstats.json", "w") as save:
             json.dump(playerstats, save, indent=4)
+
+    @commands.command(name="profile",
+                      usage="profile",
+                      description="mostra o perdil do jogador")
+    async def profile(self, ctx, user):
+
+        userp = user.upper()
+        with open("database/playerstats.json", "r") as data:
+
+            playerstats = json.load(data)
+
+            Wins = 0
+            Pontos = 0
+
+            for Player in playerstats:
+
+
+
+                if (Player["playername"].upper()) == userp:
+
+
+
+                    Wins = Wins + Player["Rankinfo"]["wins"]
+                    Pontos = Pontos + Player["Rankinfo"]["elo"]
+
+                    await ctx.send(content=f"Player: {userp}\n"
+                                           f"Vitórias: {Wins}\n"
+                                           f"Pontos: {Pontos}\n")
+
+
+
+
 
 
 

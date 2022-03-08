@@ -1,12 +1,20 @@
 [
     {
         "playername": "Matheus",
-        "status": false,
+        "status": true,
         "Wins": 2,
         "Rankinfo": {
             "wins": 3,
             "elo": 3
-        }
+        },
+        "lasteam": [
+            "Ian",
+            "Lucas",
+            "Iuri",
+            "Rick",
+            "Matheus"
+        ],
+        "lastmatch": "2022-03-07 23:55:29.211773-03:00"
     },
     {
         "playername": "Guiga",
@@ -15,7 +23,14 @@
         "Rankinfo": {
             "wins": 0,
             "elo": 1
-        }
+        },
+        "lasteam": [
+            "Cipricius",
+            "Pedro",
+            "Guiga",
+            "Iuri",
+            "Matheus"
+        ]
     },
     {
         "playername": "Chaveiro",
@@ -24,7 +39,14 @@
         "Rankinfo": {
             "wins": 0,
             "elo": 3
-        }
+        },
+        "lasteam": [
+            "Lucas",
+            "Alvin",
+            "Rick",
+            "Ian",
+            "Chaveiro"
+        ]
     },
     {
         "playername": "Cipricius",
@@ -33,40 +55,79 @@
         "Rankinfo": {
             "wins": 2,
             "elo": 1
-        }
+        },
+        "lasteam": [
+            "Cipricius",
+            "Pedro",
+            "Guiga",
+            "Iuri",
+            "Matheus"
+        ]
     },
     {
         "playername": "Alvin",
-        "status": false,
+        "status": true,
         "Wins": 2,
         "Rankinfo": {
             "wins": 0,
             "elo": 2
-        }
+        },
+        "lasteam": [
+            "Italo",
+            "Alvin",
+            "Lisboa",
+            "George",
+            "Bene"
+        ],
+        "lastmatch": "2022-03-07 23:55:29.211773-03:00"
     },
     {
         "playername": "Lucas",
-        "status": false,
+        "status": true,
         "Rankinfo": {
             "wins": 0,
             "elo": 2
-        }
+        },
+        "lasteam": [
+            "Ian",
+            "Lucas",
+            "Iuri",
+            "Rick",
+            "Matheus"
+        ],
+        "lastmatch": "2022-03-07 23:55:29.211773-03:00"
     },
     {
         "playername": "Ian",
-        "status": false,
+        "status": true,
         "Rankinfo": {
             "wins": 1,
             "elo": 2
-        }
+        },
+        "lasteam": [
+            "Ian",
+            "Lucas",
+            "Iuri",
+            "Rick",
+            "Matheus"
+        ],
+        "lastmatch": "2022-03-07 23:55:29.211773-03:00"
     },
     {
         "playername": "Iuri",
-        "status": false,
+        "status": true,
         "Rankinfo": {
             "wins": 1,
             "elo": 3
-        }
+        },
+        "lasteam": [
+            "Ian",
+            "Lucas",
+            "Iuri",
+            "Rick",
+            "Matheus"
+        ],
+        "lastmatch": "2022-03-07 23:55:29.211773-03:00"
     },
     {
         "playername": "Pedro",
@@ -74,23 +135,46 @@
         "Rankinfo": {
             "wins": 1,
             "elo": 1
-        }
+        },
+        "lasteam": [
+            "Cipricius",
+            "Pedro",
+            "Guiga",
+            "Iuri",
+            "Matheus"
+        ]
     },
     {
         "playername": "Rick",
-        "status": false,
+        "status": true,
         "Rankinfo": {
             "wins": 3,
             "elo": 2
-        }
+        },
+        "lasteam": [
+            "Ian",
+            "Lucas",
+            "Iuri",
+            "Rick",
+            "Matheus"
+        ],
+        "lastmatch": "2022-03-07 23:55:29.211773-03:00"
     },
     {
         "playername": "Italo",
-        "status": false,
+        "status": true,
         "Rankinfo": {
             "wins": 4,
             "elo": 3
-        }
+        },
+        "lastmatch": "2022-03-07 23:55:29.211773-03:00",
+        "lasteam": [
+            "Italo",
+            "Alvin",
+            "Lisboa",
+            "George",
+            "Bene"
+        ]
     },
     {
         "playername": "Pex",
@@ -128,19 +212,35 @@
     },
     {
         "playername": "George",
-        "status": false,
+        "status": true,
         "Rankinfo": {
             "wins": 1,
             "elo": 1
-        }
+        },
+        "lastmatch": "2022-03-07 23:55:29.211773-03:00",
+        "lasteam": [
+            "Italo",
+            "Alvin",
+            "Lisboa",
+            "George",
+            "Bene"
+        ]
     },
     {
         "playername": "Bene",
-        "status": false,
+        "status": true,
         "Rankinfo": {
             "wins": 0,
             "elo": 2
-        }
+        },
+        "lastmatch": "2022-03-07 23:55:29.211773-03:00",
+        "lasteam": [
+            "Italo",
+            "Alvin",
+            "Lisboa",
+            "George",
+            "Bene"
+        ]
     },
     {
         "playername": "Gustavo",
@@ -153,6 +253,30 @@
     },
     {
         "playername": "Malu",
+        "status": false,
+        "Rankinfo": {
+            "wins": 0,
+            "elo": 2
+        }
+    },
+    {
+        "playername": "Lisboa",
+        "status": true,
+        "Rankinfo": {
+            "wins": 0,
+            "elo": 4
+        },
+        "lastmatch": "2022-03-07 23:55:29.211773-03:00",
+        "lasteam": [
+            "Italo",
+            "Alvin",
+            "Lisboa",
+            "George",
+            "Bene"
+        ]
+    },
+    {
+        "playername": "meianoite",
         "status": false,
         "Rankinfo": {
             "wins": 0,

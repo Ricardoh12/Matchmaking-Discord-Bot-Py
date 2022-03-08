@@ -36,5 +36,7 @@ class tier(commands.Cog):
                     with open("database/playerstats.json", "w") as save:
                         json.dump(playerstats, save, indent=4)
 
+
+
 def setup(client:commands.Bot):
     client.add_cog(tier(client))
