@@ -19,8 +19,11 @@ class tier(commands.Cog):
             for Player in playerstats:
                 if Player["Rankinfo"]["elo"] == int(elo):
                     Players.append(Player["playername"])
-        print(", ".join(Players))
-        await ctx.send(", ".join(Players))
+                    print(", ".join(Players))
+                    await ctx.send(", ".join(Players))
+
+
+
 
     @commands.command(name="status",
                       usage="status",
@@ -38,6 +41,7 @@ class tier(commands.Cog):
                     else:
                         Player["status"] = True
                         await ctx.reply("Online e metendo", delete_after = 10)
+
             with open("database/playerstats.json", "w") as save:
                 json.dump(playerstats, save, indent=4)
 
@@ -78,48 +82,17 @@ class tier(commands.Cog):
             for Player in playerstats:
                 if Player["status"] is True:
                     Players.append(Player["playername"])
-        print(", ".join(Players))
-        await ctx.send(", ".join(Players))
-
-    @commands.command(name="sttdef",
-                      usage="sttdef",
-                      description="definir o stts de todos como false")
-    async def sttdef(self, ctx, ):
-        with open("database/playerstats.json", "r") as data:
-            playerstats = json.load(data)
-            for Player in playerstats:
-                if Player["status"] is True:
-                    Player["status"] = False
-        with open("database/playerstats.json", "w") as save:
-            json.dump(playerstats, save, indent=4)
-
-    @commands.command(name="profile",
-                      usage="profile",
-                      description="mostra o perdil do jogador")
-    async def profile(self, ctx, user):
-
-        userp = user.upper()
-        with open("database/playerstats.json", "r") as data:
-
-            playerstats = json.load(data)
-
-            Wins = 0
-            Pontos = 0
-
-            for Player in playerstats:
+                    print(", ".join(Players))
+                    await ctx.send(", ".join(Players))
+                else:
+                    await ctx.send("Não existem jogadores online no momento")
 
 
 
-                if (Player["playername"].upper()) == userp:
 
 
 
-                    Wins = Wins + Player["Rankinfo"]["wins"]
-                    Pontos = Pontos + Player["Rankinfo"]["elo"]
 
-                    await ctx.send(content=f"Player: {userp}\n"
-                                           f"Vitórias: {Wins}\n"
-                                           f"Pontos: {Pontos}\n")
 
 
 

@@ -1,7 +1,7 @@
 [
     {
         "playername": "Matheus",
-        "status": true,
+        "status": false,
         "Wins": 2,
         "Rankinfo": {
             "wins": 3,
@@ -13,8 +13,7 @@
             "Iuri",
             "Rick",
             "Matheus"
-        ],
-        "lastmatch": "2022-03-07 23:55:29.211773-03:00"
+        ]
     },
     {
         "playername": "Guiga",
@@ -66,7 +65,7 @@
     },
     {
         "playername": "Alvin",
-        "status": true,
+        "status": false,
         "Wins": 2,
         "Rankinfo": {
             "wins": 0,
@@ -78,12 +77,11 @@
             "Lisboa",
             "George",
             "Bene"
-        ],
-        "lastmatch": "2022-03-07 23:55:29.211773-03:00"
+        ]
     },
     {
         "playername": "Lucas",
-        "status": true,
+        "status": false,
         "Rankinfo": {
             "wins": 0,
             "elo": 2
@@ -94,12 +92,11 @@
             "Iuri",
             "Rick",
             "Matheus"
-        ],
-        "lastmatch": "2022-03-07 23:55:29.211773-03:00"
+        ]
     },
     {
         "playername": "Ian",
-        "status": true,
+        "status": false,
         "Rankinfo": {
             "wins": 1,
             "elo": 2
@@ -110,12 +107,11 @@
             "Iuri",
             "Rick",
             "Matheus"
-        ],
-        "lastmatch": "2022-03-07 23:55:29.211773-03:00"
+        ]
     },
     {
         "playername": "Iuri",
-        "status": true,
+        "status": false,
         "Rankinfo": {
             "wins": 1,
             "elo": 3
@@ -126,8 +122,7 @@
             "Iuri",
             "Rick",
             "Matheus"
-        ],
-        "lastmatch": "2022-03-07 23:55:29.211773-03:00"
+        ]
     },
     {
         "playername": "Pedro",
@@ -146,7 +141,7 @@
     },
     {
         "playername": "Rick",
-        "status": true,
+        "status": false,
         "Rankinfo": {
             "wins": 3,
             "elo": 2
@@ -158,16 +153,15 @@
             "Rick",
             "Matheus"
         ],
-        "lastmatch": "2022-03-07 23:55:29.211773-03:00"
+        "count": 10
     },
     {
         "playername": "Italo",
-        "status": true,
+        "status": false,
         "Rankinfo": {
             "wins": 4,
             "elo": 3
         },
-        "lastmatch": "2022-03-07 23:55:29.211773-03:00",
         "lasteam": [
             "Italo",
             "Alvin",
@@ -212,12 +206,11 @@
     },
     {
         "playername": "George",
-        "status": true,
+        "status": false,
         "Rankinfo": {
             "wins": 1,
             "elo": 1
         },
-        "lastmatch": "2022-03-07 23:55:29.211773-03:00",
         "lasteam": [
             "Italo",
             "Alvin",
@@ -228,12 +221,11 @@
     },
     {
         "playername": "Bene",
-        "status": true,
+        "status": false,
         "Rankinfo": {
             "wins": 0,
             "elo": 2
         },
-        "lastmatch": "2022-03-07 23:55:29.211773-03:00",
         "lasteam": [
             "Italo",
             "Alvin",
@@ -261,12 +253,11 @@
     },
     {
         "playername": "Lisboa",
-        "status": true,
+        "status": false,
         "Rankinfo": {
             "wins": 0,
             "elo": 4
         },
-        "lastmatch": "2022-03-07 23:55:29.211773-03:00",
         "lasteam": [
             "Italo",
             "Alvin",
@@ -281,6 +272,34 @@
         "Rankinfo": {
             "wins": 0,
             "elo": 2
+        }
+    },
+    {
+        "playername": "teste",
+        "status": false,
+        "Rankinfo": {
+            "wins": 0,
+            "elo": 1
+        },
+        "history": {
+            "Astra": 0,
+            "Breach": 0,
+            "Brimstone": 0,
+            "Chamber": 0,
+            "Cypher": 0,
+            "Jett": 0,
+            "kay/0": 0,
+            "Killjoy": 0,
+            "Neon": 0,
+            "omen": 0,
+            "Phoenix": 0,
+            "Raze": 0,
+            "Reyna": 1,
+            "Sage": 0,
+            "Skye": 0,
+            "Sova:": 0,
+            "Viper": 0,
+            "Yoru": 0
         }
     }
 ]

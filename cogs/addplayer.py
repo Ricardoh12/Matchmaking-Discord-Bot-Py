@@ -29,9 +29,30 @@ class tier(commands.Cog):
                         "status": False,
                         "Rankinfo": {
                             "wins": 0,
-                            "elo": 1
+                            "elo": 1,
+                                    },
+                        "history": {
+                            "Astra": 0,
+                            "Breach": 0,
+                            "Brimstone": 0,
+                            "Chamber": 0,
+                            "Cypher": 0,
+                            "Jett": 0,
+                            "kay/0": 0,
+                            "Killjoy": 0,
+                            "Neon": 0,
+                            "omen": 0,
+                            "Phoenix": 0,
+                            "Raze": 0,
+                            "Reyna": 1,
+                            "Sage": 0,
+                            "Skye": 0,
+                            "Sova:": 0,
+                            "Viper": 0,
+                            "Yoru": 0
                         }
                     }
+
                     playerstats.append(stats)
                     with open("database/playerstats.json", "w") as save:
                         json.dump(playerstats, save, indent=4)
