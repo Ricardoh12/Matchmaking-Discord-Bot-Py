@@ -39,5 +39,6 @@ class tier(commands.Cog):
 
 
 
+
 def setup(client:commands.Bot):
     client.add_cog(tier(client))

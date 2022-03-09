@@ -46,24 +46,6 @@ class tier(commands.Cog):
                 json.dump(playerstats, save, indent=4)
 
 
-
-    @commands.command(name="addwin",
-                      usage="addwin",
-                      description="adiciona uma vitória")
-    async def addwin(self, ctx, user):
-
-        with open("database/playerstats.json", "r") as data:
-            playerstats = json.load(data)
-            userp = user.upper()
-            for Player in playerstats:
-                if (Player["playername"].upper()) == userp:
-                    Player["Rankinfo"]["wins"] = Player["Rankinfo"]["wins"] + 1
-                    with open("database/playerstats.json", "w") as save:
-                        json.dump(playerstats, save, indent=4)
-                    await ctx.send("vitória adicionada")
-
-
-
     @commands.command(name="poi",
                       usage="poi",
                       description="Par ou impar")
@@ -79,13 +61,72 @@ class tier(commands.Cog):
         with open("database/playerstats.json", "r") as data:
             playerstats = json.load(data)
             Players = []
+
             for Player in playerstats:
                 if Player["status"] is True:
                     Players.append(Player["playername"])
-                    print(", ".join(Players))
-                    await ctx.send(", ".join(Players))
-                else:
-                    await ctx.send("Não existem jogadores online no momento")
+
+            await ctx.send(content=f"Jogadores online:{Players} são {len(Players)} online ")
+
+    @commands.command(name="addwin1",
+                      usage="addwin1",
+                      description="adiciona uma vitória ao time")
+
+    async def addwin1(self, ctx):
+        reply = await ctx.send("Carregando...")
+        with open("database/playerstats.json", "r") as data:
+            with open("database/globalstats.json", "r") as datag:
+                playerstats = json.load(data)
+                globalstats = json.load(datag)
+                for time in globalstats:
+                    for Player in playerstats:
+
+                        if time["mc"] > 0:
+                            if Player["playername"] in (time["time1"]):
+                                    print("ok")
+                                    Player["Rankinfo"]["wins"] = Player["Rankinfo"]["wins"] + 1
+                                    Player["Rankinfo"]["elo"] = Player["Rankinfo"]["elo"] + 0
+                                    time["mc"] = time["mc"] - 1
+                                    await reply.edit(content=f"Partida computada")
+
+
+
+
+
+
+                    with open("database/globalstats.json", "w") as save:
+                        json.dump(globalstats, save, indent=4)
+
+                    with open("database/playerstats.json", "w") as save:
+                        json.dump(playerstats, save, indent=4)
+
+    @commands.command(name="addwin1",
+                      usage="addwin1",
+                      description="adiciona uma vitória ao time")
+    async def addwin2(self, ctx):
+        reply = await ctx.send("Carregando...")
+        with open("database/playerstats.json", "r") as data:
+            with open("database/globalstats.json", "r") as datag:
+                playerstats = json.load(data)
+                globalstats = json.load(datag)
+                for time in globalstats:
+                    for Player in playerstats:
+
+                        if time["mc"] > 0:
+                            if Player["playername"] in (time["time2"]):
+                                print("ok")
+                                Player["Rankinfo"]["wins"] = Player["Rankinfo"]["wins"] + 1
+                                Player["Rankinfo"]["elo"] = Player["Rankinfo"]["elo"] + 0
+                                time["mc"] = time["mc"] - 1
+                                await reply.edit(content=f"Partida computada")
+
+                    with open("database/globalstats.json", "w") as save:
+                        json.dump(globalstats, save, indent=4)
+
+                    with open("database/playerstats.json", "w") as save:
+                        json.dump(playerstats, save, indent=4)
+
+
 
 
 

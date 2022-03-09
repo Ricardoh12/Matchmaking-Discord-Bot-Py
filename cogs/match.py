@@ -111,6 +111,7 @@ class Match(commands.Cog):
                     for Times in globalstats:
                         Times["time1"] = Time1
                         Times["time2"] = Time2
+                        Times["mc"] = 5
 
                     with open("database/globalstats.json", "w") as save:
                         json.dump(globalstats, save, indent=4)

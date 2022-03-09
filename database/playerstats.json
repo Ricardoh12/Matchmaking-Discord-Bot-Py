@@ -1,55 +1,58 @@
 [
     {
         "playername": "Matheus",
-        "status": false,
+        "status": true,
         "Wins": 2,
         "Rankinfo": {
-            "wins": 3,
+            "wins": 2,
             "elo": 3
         },
         "lasteam": [
-            "Ian",
-            "Lucas",
-            "Iuri",
-            "Rick",
+            "Italo",
+            "Alvin",
+            "Diteck",
+            "Guiga",
             "Matheus"
-        ]
+        ],
+        "lastmatch": "2022-03-09 18:24:37.697605-03:00"
     },
     {
         "playername": "Guiga",
-        "status": false,
+        "status": true,
         "Wins": 2,
         "Rankinfo": {
-            "wins": 0,
+            "wins": 1,
             "elo": 1
         },
         "lasteam": [
-            "Cipricius",
-            "Pedro",
+            "Italo",
+            "Alvin",
+            "Diteck",
             "Guiga",
-            "Iuri",
             "Matheus"
-        ]
+        ],
+        "lastmatch": "2022-03-09 18:24:37.697605-03:00"
     },
     {
         "playername": "Chaveiro",
-        "status": false,
+        "status": true,
         "Wins": 0,
         "Rankinfo": {
             "wins": 0,
             "elo": 3
         },
         "lasteam": [
+            "Cipricius",
+            "Pex",
             "Lucas",
-            "Alvin",
-            "Rick",
-            "Ian",
+            "Pedro",
             "Chaveiro"
-        ]
+        ],
+        "lastmatch": "2022-03-09 18:24:37.697605-03:00"
     },
     {
         "playername": "Cipricius",
-        "status": false,
+        "status": true,
         "Wins": 2,
         "Rankinfo": {
             "wins": 2,
@@ -57,46 +60,49 @@
         },
         "lasteam": [
             "Cipricius",
+            "Pex",
+            "Lucas",
             "Pedro",
-            "Guiga",
-            "Iuri",
-            "Matheus"
-        ]
+            "Chaveiro"
+        ],
+        "lastmatch": "2022-03-09 18:24:37.697605-03:00"
     },
     {
         "playername": "Alvin",
-        "status": false,
+        "status": true,
         "Wins": 2,
         "Rankinfo": {
-            "wins": 0,
+            "wins": 1,
             "elo": 2
         },
         "lasteam": [
             "Italo",
             "Alvin",
-            "Lisboa",
-            "George",
-            "Bene"
-        ]
+            "Diteck",
+            "Guiga",
+            "Matheus"
+        ],
+        "lastmatch": "2022-03-09 18:24:37.697605-03:00"
     },
     {
         "playername": "Lucas",
-        "status": false,
+        "status": true,
         "Rankinfo": {
             "wins": 0,
             "elo": 2
         },
         "lasteam": [
-            "Ian",
+            "Cipricius",
+            "Pex",
             "Lucas",
-            "Iuri",
-            "Rick",
-            "Matheus"
-        ]
+            "Pedro",
+            "Chaveiro"
+        ],
+        "lastmatch": "2022-03-09 18:24:37.697605-03:00"
     },
     {
         "playername": "Ian",
-        "status": false,
+        "status": true,
         "Rankinfo": {
             "wins": 1,
             "elo": 2
@@ -107,11 +113,12 @@
             "Iuri",
             "Rick",
             "Matheus"
-        ]
+        ],
+        "count": 4520
     },
     {
         "playername": "Iuri",
-        "status": false,
+        "status": true,
         "Rankinfo": {
             "wins": 1,
             "elo": 3
@@ -122,26 +129,28 @@
             "Iuri",
             "Rick",
             "Matheus"
-        ]
+        ],
+        "count": 4520
     },
     {
         "playername": "Pedro",
-        "status": false,
+        "status": true,
         "Rankinfo": {
             "wins": 1,
             "elo": 1
         },
         "lasteam": [
             "Cipricius",
+            "Pex",
+            "Lucas",
             "Pedro",
-            "Guiga",
-            "Iuri",
-            "Matheus"
-        ]
+            "Chaveiro"
+        ],
+        "lastmatch": "2022-03-09 18:24:37.697605-03:00"
     },
     {
         "playername": "Rick",
-        "status": false,
+        "status": true,
         "Rankinfo": {
             "wins": 3,
             "elo": 2
@@ -153,11 +162,11 @@
             "Rick",
             "Matheus"
         ],
-        "count": 10
+        "count": 4540
     },
     {
         "playername": "Italo",
-        "status": false,
+        "status": true,
         "Rankinfo": {
             "wins": 4,
             "elo": 3
@@ -165,27 +174,44 @@
         "lasteam": [
             "Italo",
             "Alvin",
-            "Lisboa",
-            "George",
-            "Bene"
-        ]
+            "Diteck",
+            "Guiga",
+            "Matheus"
+        ],
+        "lastmatch": "2022-03-09 18:24:37.697605-03:00"
     },
     {
         "playername": "Pex",
-        "status": false,
+        "status": true,
         "Rankinfo": {
             "wins": 1,
             "elo": 2
-        }
+        },
+        "lastmatch": "2022-03-09 18:24:37.697605-03:00",
+        "lasteam": [
+            "Cipricius",
+            "Pex",
+            "Lucas",
+            "Pedro",
+            "Chaveiro"
+        ]
     },
     {
         "playername": "Diteck",
-        "status": false,
+        "status": true,
         "Wins": 0,
         "Rankinfo": {
-            "wins": 0,
-            "elo": 1
-        }
+            "wins": 1,
+            "elo": 2
+        },
+        "lastmatch": "2022-03-09 18:24:37.697605-03:00",
+        "lasteam": [
+            "Italo",
+            "Alvin",
+            "Diteck",
+            "Guiga",
+            "Matheus"
+        ]
     },
     {
         "playername": "Dpi",
