@@ -65,7 +65,7 @@
     },
     {
         "playername": "Alvin",
-        "status": true,
+        "status": false,
         "Wins": 2,
         "Rankinfo": {
             "wins": 1,
@@ -77,12 +77,11 @@
             "misto",
             "Iuri",
             "Alvin"
-        ],
-        "lastmatch": "2022-03-10 00:25:32.852819-03:00"
+        ]
     },
     {
         "playername": "Lucas",
-        "status": true,
+        "status": false,
         "Rankinfo": {
             "wins": 1,
             "elo": 2
@@ -93,8 +92,7 @@
             "Italo",
             "Diteck",
             "Rick"
-        ],
-        "lastmatch": "2022-03-10 00:25:32.852819-03:00"
+        ]
     },
     {
         "playername": "Ian",
@@ -113,7 +111,7 @@
     },
     {
         "playername": "Iuri",
-        "status": true,
+        "status": false,
         "Rankinfo": {
             "wins": 1,
             "elo": 3
@@ -124,8 +122,7 @@
             "misto",
             "Iuri",
             "Alvin"
-        ],
-        "lastmatch": "2022-03-10 00:25:32.852819-03:00"
+        ]
     },
     {
         "playername": "Pedro",
@@ -144,7 +141,7 @@
     },
     {
         "playername": "Rick",
-        "status": true,
+        "status": false,
         "Rankinfo": {
             "wins": 4,
             "elo": 2
@@ -155,12 +152,11 @@
             "Italo",
             "Diteck",
             "Rick"
-        ],
-        "lastmatch": "2022-03-10 00:25:32.852819-03:00"
+        ]
     },
     {
         "playername": "Italo",
-        "status": true,
+        "status": false,
         "Rankinfo": {
             "wins": 5,
             "elo": 3
@@ -171,8 +167,7 @@
             "Italo",
             "Diteck",
             "Rick"
-        ],
-        "lastmatch": "2022-03-10 00:25:32.852819-03:00"
+        ]
     },
     {
         "playername": "Pex",
@@ -192,7 +187,7 @@
     },
     {
         "playername": "Diteck",
-        "status": true,
+        "status": false,
         "Wins": 0,
         "Rankinfo": {
             "wins": 2,
@@ -204,8 +199,7 @@
             "Italo",
             "Diteck",
             "Rick"
-        ],
-        "lastmatch": "2022-03-10 00:25:32.852819-03:00"
+        ]
     },
     {
         "playername": "Dpi",
@@ -226,7 +220,7 @@
     },
     {
         "playername": "George",
-        "status": true,
+        "status": false,
         "Rankinfo": {
             "wins": 1,
             "elo": 1
@@ -237,12 +231,11 @@
             "Italo",
             "Diteck",
             "Rick"
-        ],
-        "lastmatch": "2022-03-10 00:25:32.852819-03:00"
+        ]
     },
     {
         "playername": "Bene",
-        "status": true,
+        "status": false,
         "Rankinfo": {
             "wins": 2,
             "elo": 1
@@ -253,8 +246,7 @@
             "misto",
             "Iuri",
             "Alvin"
-        ],
-        "lastmatch": "2022-03-10 00:25:32.852819-03:00"
+        ]
     },
     {
         "playername": "Gustavo",
@@ -327,7 +319,7 @@
     },
     {
         "playername": "Polo",
-        "status": true,
+        "status": false,
         "Rankinfo": {
             "wins": 0,
             "elo": 1
@@ -352,7 +344,6 @@
             "Viper": 0,
             "Yoru": 0
         },
-        "lastmatch": "2022-03-10 00:25:32.852819-03:00",
         "lasteam": [
             "Bene",
             "Polo",
@@ -363,7 +354,7 @@
     },
     {
         "playername": "misto",
-        "status": true,
+        "status": false,
         "Rankinfo": {
             "wins": 0,
             "elo": 1
@@ -388,7 +379,6 @@
             "Viper": 0,
             "Yoru": 0
         },
-        "lastmatch": "2022-03-10 00:25:32.852819-03:00",
         "lasteam": [
             "Bene",
             "Polo",

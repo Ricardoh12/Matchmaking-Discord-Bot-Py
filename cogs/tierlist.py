@@ -85,7 +85,12 @@ class tier(commands.Cog):
                             if Player["playername"] in (time["time1"]):
                                     print("ok")
                                     Player["Rankinfo"]["wins"] = Player["Rankinfo"]["wins"] + 1
-                                    Player["Rankinfo"]["elo"] = Player["Rankinfo"]["elo"] + 0
+                                    Player["Rankinfo"]["elo"] = Player["Rankinfo"]["elo"] + 15
+                                    time["mc"] = time["mc"] - 1
+                            if Player["playername"] in (time["time2"]):
+                                    print("ok2")
+                                    Player["Rankinfo"]["loses"] = Player["Rankinfo"]["loses"] + 1
+                                    Player["Rankinfo"]["elo"] = Player["Rankinfo"]["elo"] - 10
                                     time["mc"] = time["mc"] - 1
                                     await reply.edit(content=f"Partida computada")
 
@@ -118,7 +123,12 @@ class tier(commands.Cog):
                                 Player["Rankinfo"]["wins"] = Player["Rankinfo"]["wins"] + 1
                                 Player["Rankinfo"]["elo"] = Player["Rankinfo"]["elo"] + 0
                                 time["mc"] = time["mc"] - 1
-                                await reply.edit(content=f"Partida computada")
+                            if Player["playername"] in (time["time1"]):
+                                    print("ok2")
+                                    Player["Rankinfo"]["loses"] = Player["Rankinfo"]["loses"] + 1
+                                    Player["Rankinfo"]["elo"] = Player["Rankinfo"]["elo"] - 10
+                                    time["mc"] = time["mc"] - 1
+                                    await reply.edit(content=f"Partida computada")
 
                     with open("database/globalstats.json", "w") as save:
                         json.dump(globalstats, save, indent=4)
