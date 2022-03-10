@@ -136,44 +136,6 @@ class tier(commands.Cog):
                     with open("database/playerstats.json", "w") as save:
                         json.dump(playerstats, save, indent=4)
 
-'''''    @commands.command(name="rank",
-                      usage="rank",
-                      description="mostrar o top 10 players")
-    async def rank(self, ctx):
-        with open("database/playerstats.json", "r") as data:
-            playerstats = json.load(data)
-
-            for Player in playerstats:
-
-                r1 = sorted(Player["Rankinfo"]["wins"], reverse=True)
-
-                for item in Player['Rankinfo']["wins"].items():
-                    if item[1] == r1[0]:
-                        top1 = item[0]
-                    if item[1] == r1[1]:
-                        top2 = item
-                    if item[1] == r1[2]:
-                        top3 = item
-
-                Wins = Wins + Player["Rankinfo"]["wins"]
-                Pontos = Pontos + Player["Rankinfo"]["elo"]
-
-                print("top1")
-
-    @commands.command(name="addhistory",
-                      usage="addhistory",
-                      description="adiciona uma vitória ao time")
-    async def addhistory(self, ctx, user, boneco):
-        userp = user.upper()
-        bonecop = boneco.upper()
-        with open("database/playerstats.json", "r") as data:
-            playerstats = json.load(data)
-            for Player in playerstats:
-                if (Player["playername"].upper()) == userp:
-                    if bonecop in (Player["history"].upper()):
-                        Player["history"] = Player["history"][bonecop] + '''''
-
-
 
 
 

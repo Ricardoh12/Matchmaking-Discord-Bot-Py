@@ -36,7 +36,6 @@ class Match(commands.Cog):
                         Time1 = []
                         Time2 = []
                         count = 0
-                        print("koe1")
                         while True:
                             Player = random.choice(Players)
                             if Player not in Time1:
@@ -45,7 +44,6 @@ class Match(commands.Cog):
                             if count == 5:
                                 count = 0
                                 break
-                        print("koe2")
                         while True:
                             Player = random.choice(Players)
                             if Player not in Time1:
@@ -55,29 +53,22 @@ class Match(commands.Cog):
                             if count == 5:
                                 count = 0
                                 break
-                        print("koe3")
                         #Pareamento_dos_times
                         Pontostime1 = 0
                         for Player in Time1:
                             for unit in playerstats:
                                 if Player == unit["playername"]:
                                    Pontostime1 += unit["Rankinfo"]["elo"]
-                        print("koe4")
 
                         Pontostime2 = 0
-                        print("koe5")
                         for Player in Time2:
                             for unit in playerstats:
                                 if Player == unit["playername"]:
                                     Pontostime2 += unit["Rankinfo"]["elo"]
-                        print("koe6")
 
-                        print(Time1)
-                        print(Time2)
                         Match = Pontostime1 - Pontostime2
-                        print(Match)
-                        if Match <= 2:
-                            if Match >= -2:
+                        if Match <= 150:
+                            if Match >= -150:
                                 print(Match)
                                 break
                         else:
@@ -111,7 +102,7 @@ class Match(commands.Cog):
                     for Times in globalstats:
                         Times["time1"] = Time1
                         Times["time2"] = Time2
-                        Times["mc"] = 5
+                        Times["mc"] = 10
 
                     with open("database/globalstats.json", "w") as save:
                         json.dump(globalstats, save, indent=4)

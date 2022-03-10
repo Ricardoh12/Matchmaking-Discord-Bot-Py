@@ -13,7 +13,7 @@ class tier(commands.Cog):
     async def addplayer(self, ctx, Player, elo):
 
         with open("database/playerstats.json", "r") as data:
-            with open("database/elos.json", "r") as datae:
+
 
                 playerstats = json.load(data)
 
@@ -67,7 +67,7 @@ class tier(commands.Cog):
                                 "omen": 0,
                                 "Phoenix": 0,
                                 "Raze": 0,
-                                "Reyna": 1,
+                                "Reyna": 0,
                                 "Sage": 0,
                                 "Skye": 0,
                                 "Sova:": 0,
@@ -75,7 +75,7 @@ class tier(commands.Cog):
                                 "Yoru": 0
                             }
                         }
-
+                        await ctx.send("Player adicionado")
                         playerstats.append(stats)
                         with open("database/playerstats.json", "w") as save:
                             json.dump(playerstats, save, indent=4)

@@ -1,300 +1,11 @@
 [
     {
         "playername": "Matheus",
-        "status": false,
-        "Wins": 2,
-        "Rankinfo": {
-            "wins": 2,
-            "elo": 3
-        },
-        "lasteam": [
-            "Italo",
-            "Alvin",
-            "Diteck",
-            "Guiga",
-            "Matheus"
-        ]
-    },
-    {
-        "playername": "Guiga",
-        "status": false,
-        "Wins": 2,
-        "Rankinfo": {
-            "wins": 1,
-            "elo": 1
-        },
-        "lasteam": [
-            "Italo",
-            "Alvin",
-            "Diteck",
-            "Guiga",
-            "Matheus"
-        ]
-    },
-    {
-        "playername": "Chaveiro",
-        "status": false,
-        "Wins": 0,
+        "status": true,
         "Rankinfo": {
             "wins": 0,
-            "elo": 3
-        },
-        "lasteam": [
-            "Cipricius",
-            "Pex",
-            "Lucas",
-            "Pedro",
-            "Chaveiro"
-        ]
-    },
-    {
-        "playername": "Cipricius",
-        "status": false,
-        "Wins": 2,
-        "Rankinfo": {
-            "wins": 2,
-            "elo": 1
-        },
-        "lasteam": [
-            "Cipricius",
-            "Pex",
-            "Lucas",
-            "Pedro",
-            "Chaveiro"
-        ]
-    },
-    {
-        "playername": "Alvin",
-        "status": false,
-        "Wins": 2,
-        "Rankinfo": {
-            "wins": 1,
-            "elo": 2
-        },
-        "lasteam": [
-            "Bene",
-            "Polo",
-            "misto",
-            "Iuri",
-            "Alvin"
-        ]
-    },
-    {
-        "playername": "Lucas",
-        "status": false,
-        "Rankinfo": {
-            "wins": 1,
-            "elo": 2
-        },
-        "lasteam": [
-            "George",
-            "Lucas",
-            "Italo",
-            "Diteck",
-            "Rick"
-        ]
-    },
-    {
-        "playername": "Ian",
-        "status": false,
-        "Rankinfo": {
-            "wins": 1,
-            "elo": 2
-        },
-        "lasteam": [
-            "Ian",
-            "Lucas",
-            "Iuri",
-            "Rick",
-            "Matheus"
-        ]
-    },
-    {
-        "playername": "Iuri",
-        "status": false,
-        "Rankinfo": {
-            "wins": 1,
-            "elo": 3
-        },
-        "lasteam": [
-            "Bene",
-            "Polo",
-            "misto",
-            "Iuri",
-            "Alvin"
-        ]
-    },
-    {
-        "playername": "Pedro",
-        "status": false,
-        "Rankinfo": {
-            "wins": 1,
-            "elo": 1
-        },
-        "lasteam": [
-            "Cipricius",
-            "Pex",
-            "Lucas",
-            "Pedro",
-            "Chaveiro"
-        ]
-    },
-    {
-        "playername": "Rick",
-        "status": false,
-        "Rankinfo": {
-            "wins": 4,
-            "elo": 2
-        },
-        "lasteam": [
-            "George",
-            "Lucas",
-            "Italo",
-            "Diteck",
-            "Rick"
-        ]
-    },
-    {
-        "playername": "Italo",
-        "status": false,
-        "Rankinfo": {
-            "wins": 5,
-            "elo": 3
-        },
-        "lasteam": [
-            "George",
-            "Lucas",
-            "Italo",
-            "Diteck",
-            "Rick"
-        ]
-    },
-    {
-        "playername": "Pex",
-        "status": false,
-        "Rankinfo": {
-            "wins": 1,
-            "elo": 2
-        },
-        "lasteam": [
-            "Cipricius",
-            "Pex",
-            "Lucas",
-            "Pedro",
-            "Chaveiro"
-        ],
-        "count": 70
-    },
-    {
-        "playername": "Diteck",
-        "status": false,
-        "Wins": 0,
-        "Rankinfo": {
-            "wins": 2,
-            "elo": 2
-        },
-        "lasteam": [
-            "George",
-            "Lucas",
-            "Italo",
-            "Diteck",
-            "Rick"
-        ]
-    },
-    {
-        "playername": "Dpi",
-        "status": false,
-        "Rankinfo": {
-            "wins": 0,
-            "elo": 1
-        }
-    },
-    {
-        "playername": "Gabriel",
-        "status": false,
-        "Wins": 0,
-        "Rankinfo": {
-            "wins": 1,
-            "elo": 1
-        }
-    },
-    {
-        "playername": "George",
-        "status": false,
-        "Rankinfo": {
-            "wins": 1,
-            "elo": 1
-        },
-        "lasteam": [
-            "George",
-            "Lucas",
-            "Italo",
-            "Diteck",
-            "Rick"
-        ]
-    },
-    {
-        "playername": "Bene",
-        "status": false,
-        "Rankinfo": {
-            "wins": 2,
-            "elo": 1
-        },
-        "lasteam": [
-            "Bene",
-            "Polo",
-            "misto",
-            "Iuri",
-            "Alvin"
-        ]
-    },
-    {
-        "playername": "Gustavo",
-        "status": false,
-        "Wins": 0,
-        "Rankinfo": {
-            "wins": 0,
-            "elo": 1
-        }
-    },
-    {
-        "playername": "Malu",
-        "status": false,
-        "Rankinfo": {
-            "wins": 0,
-            "elo": 2
-        }
-    },
-    {
-        "playername": "Lisboa",
-        "status": false,
-        "Rankinfo": {
-            "wins": 0,
-            "elo": 4
-        },
-        "lasteam": [
-            "Italo",
-            "Alvin",
-            "Lisboa",
-            "George",
-            "Bene"
-        ]
-    },
-    {
-        "playername": "meianoite",
-        "status": false,
-        "Rankinfo": {
-            "wins": 0,
-            "elo": 2
-        },
-        "count": 160
-    },
-    {
-        "playername": "teste",
-        "status": false,
-        "Rankinfo": {
-            "wins": 0,
-            "elo": 1
+            "loses": 0,
+            "elo": 400
         },
         "history": {
             "Astra": 0,
@@ -308,34 +19,6 @@
             "Neon": 0,
             "omen": 0,
             "Phoenix": 0,
-            "Raze": 0,
-            "Reyna": 1,
-            "Sage": 0,
-            "Skye": 0,
-            "Sova:": 0,
-            "Viper": 0,
-            "Yoru": 0
-        }
-    },
-    {
-        "playername": "Polo",
-        "status": false,
-        "Rankinfo": {
-            "wins": 0,
-            "elo": 1
-        },
-        "history": {
-            "Astra": 0,
-            "Breach": 0,
-            "Brimstone": 0,
-            "Chamber": 0,
-            "Cypher": 0,
-            "Jett": 0,
-            "kay/0": 0,
-            "Killjoy": 0,
-            "Neon": 0,
-            "omen": 0,
-            "Phoenix": 1,
             "Raze": 0,
             "Reyna": 0,
             "Sage": 0,
@@ -344,20 +27,22 @@
             "Viper": 0,
             "Yoru": 0
         },
+        "lastmatch": "2022-03-10 21:25:42.519232-03:00",
         "lasteam": [
-            "Bene",
-            "Polo",
-            "misto",
-            "Iuri",
-            "Alvin"
+            "Rick",
+            "Ian",
+            "Cipricius",
+            "Matheus",
+            "Iuri"
         ]
     },
     {
-        "playername": "misto",
-        "status": false,
+        "playername": "Guiga",
+        "status": true,
         "Rankinfo": {
             "wins": 0,
-            "elo": 1
+            "loses": 0,
+            "elo": 200
         },
         "history": {
             "Astra": 0,
@@ -369,22 +54,501 @@
             "kay/0": 0,
             "Killjoy": 0,
             "Neon": 0,
-            "omen": 1,
+            "omen": 0,
             "Phoenix": 0,
             "Raze": 0,
-            "Reyna": 1,
+            "Reyna": 0,
             "Sage": 0,
             "Skye": 0,
             "Sova:": 0,
             "Viper": 0,
             "Yoru": 0
         },
+        "lastmatch": "2022-03-10 21:25:42.519232-03:00",
         "lasteam": [
-            "Bene",
-            "Polo",
-            "misto",
-            "Iuri",
-            "Alvin"
+            "Italo",
+            "Alvin",
+            "Guiga",
+            "Lucas",
+            "Pedro"
         ]
+    },
+    {
+        "playername": "Chaveiro",
+        "status": true,
+        "Rankinfo": {
+            "wins": 0,
+            "loses": 0,
+            "elo": 400
+        },
+        "history": {
+            "Astra": 0,
+            "Breach": 0,
+            "Brimstone": 0,
+            "Chamber": 0,
+            "Cypher": 0,
+            "Jett": 0,
+            "kay/0": 0,
+            "Killjoy": 0,
+            "Neon": 0,
+            "omen": 0,
+            "Phoenix": 0,
+            "Raze": 0,
+            "Reyna": 0,
+            "Sage": 0,
+            "Skye": 0,
+            "Sova:": 0,
+            "Viper": 0,
+            "Yoru": 0
+        },
+        "lastmatch": "2022-03-10 21:24:35.312974-03:00",
+        "lasteam": [
+            "Rick",
+            "Chaveiro",
+            "Ian",
+            "Pedro",
+            "Lucas"
+        ]
+    },
+    {
+        "playername": "Cipricius",
+        "status": true,
+        "Rankinfo": {
+            "wins": 0,
+            "loses": 0,
+            "elo": 100
+        },
+        "history": {
+            "Astra": 0,
+            "Breach": 0,
+            "Brimstone": 0,
+            "Chamber": 0,
+            "Cypher": 0,
+            "Jett": 0,
+            "kay/0": 0,
+            "Killjoy": 0,
+            "Neon": 0,
+            "omen": 0,
+            "Phoenix": 0,
+            "Raze": 0,
+            "Reyna": 0,
+            "Sage": 0,
+            "Skye": 0,
+            "Sova:": 0,
+            "Viper": 0,
+            "Yoru": 0
+        },
+        "lastmatch": "2022-03-10 21:25:42.519232-03:00",
+        "lasteam": [
+            "Rick",
+            "Ian",
+            "Cipricius",
+            "Matheus",
+            "Iuri"
+        ]
+    },
+    {
+        "playername": "Alvin",
+        "status": true,
+        "Rankinfo": {
+            "wins": 0,
+            "loses": 0,
+            "elo": 300
+        },
+        "history": {
+            "Astra": 0,
+            "Breach": 0,
+            "Brimstone": 0,
+            "Chamber": 0,
+            "Cypher": 0,
+            "Jett": 0,
+            "kay/0": 0,
+            "Killjoy": 0,
+            "Neon": 0,
+            "omen": 0,
+            "Phoenix": 0,
+            "Raze": 0,
+            "Reyna": 0,
+            "Sage": 0,
+            "Skye": 0,
+            "Sova:": 0,
+            "Viper": 0,
+            "Yoru": 0
+        },
+        "lastmatch": "2022-03-10 21:25:42.519232-03:00",
+        "lasteam": [
+            "Italo",
+            "Alvin",
+            "Guiga",
+            "Lucas",
+            "Pedro"
+        ]
+    },
+    {
+        "playername": "Lucas",
+        "status": true,
+        "Rankinfo": {
+            "wins": 0,
+            "loses": 0,
+            "elo": 300
+        },
+        "history": {
+            "Astra": 0,
+            "Breach": 0,
+            "Brimstone": 0,
+            "Chamber": 0,
+            "Cypher": 0,
+            "Jett": 0,
+            "kay/0": 0,
+            "Killjoy": 0,
+            "Neon": 0,
+            "omen": 0,
+            "Phoenix": 0,
+            "Raze": 0,
+            "Reyna": 0,
+            "Sage": 0,
+            "Skye": 0,
+            "Sova:": 0,
+            "Viper": 0,
+            "Yoru": 0
+        },
+        "lastmatch": "2022-03-10 21:25:42.519232-03:00",
+        "lasteam": [
+            "Italo",
+            "Alvin",
+            "Guiga",
+            "Lucas",
+            "Pedro"
+        ]
+    },
+    {
+        "playername": "Ian",
+        "status": true,
+        "Rankinfo": {
+            "wins": 0,
+            "loses": 0,
+            "elo": 300
+        },
+        "history": {
+            "Astra": 0,
+            "Breach": 0,
+            "Brimstone": 0,
+            "Chamber": 0,
+            "Cypher": 0,
+            "Jett": 0,
+            "kay/0": 0,
+            "Killjoy": 0,
+            "Neon": 0,
+            "omen": 0,
+            "Phoenix": 0,
+            "Raze": 0,
+            "Reyna": 0,
+            "Sage": 0,
+            "Skye": 0,
+            "Sova:": 0,
+            "Viper": 0,
+            "Yoru": 0
+        },
+        "lastmatch": "2022-03-10 21:25:42.519232-03:00",
+        "lasteam": [
+            "Rick",
+            "Ian",
+            "Cipricius",
+            "Matheus",
+            "Iuri"
+        ]
+    },
+    {
+        "playername": "Iuri",
+        "status": true,
+        "Rankinfo": {
+            "wins": 0,
+            "loses": 0,
+            "elo": 400
+        },
+        "history": {
+            "Astra": 0,
+            "Breach": 0,
+            "Brimstone": 0,
+            "Chamber": 0,
+            "Cypher": 0,
+            "Jett": 0,
+            "kay/0": 0,
+            "Killjoy": 0,
+            "Neon": 0,
+            "omen": 0,
+            "Phoenix": 0,
+            "Raze": 0,
+            "Reyna": 0,
+            "Sage": 0,
+            "Skye": 0,
+            "Sova:": 0,
+            "Viper": 0,
+            "Yoru": 0
+        },
+        "lastmatch": "2022-03-10 21:25:42.519232-03:00",
+        "lasteam": [
+            "Rick",
+            "Ian",
+            "Cipricius",
+            "Matheus",
+            "Iuri"
+        ]
+    },
+    {
+        "playername": "Pedro",
+        "status": true,
+        "Rankinfo": {
+            "wins": 0,
+            "loses": 0,
+            "elo": 200
+        },
+        "history": {
+            "Astra": 0,
+            "Breach": 0,
+            "Brimstone": 0,
+            "Chamber": 0,
+            "Cypher": 0,
+            "Jett": 0,
+            "kay/0": 0,
+            "Killjoy": 0,
+            "Neon": 0,
+            "omen": 0,
+            "Phoenix": 0,
+            "Raze": 0,
+            "Reyna": 0,
+            "Sage": 0,
+            "Skye": 0,
+            "Sova:": 0,
+            "Viper": 0,
+            "Yoru": 0
+        },
+        "lastmatch": "2022-03-10 21:25:42.519232-03:00",
+        "lasteam": [
+            "Italo",
+            "Alvin",
+            "Guiga",
+            "Lucas",
+            "Pedro"
+        ]
+    },
+    {
+        "playername": "Rick",
+        "status": true,
+        "Rankinfo": {
+            "wins": 1,
+            "loses": 0,
+            "elo": 300
+        },
+        "history": {
+            "Astra": 0,
+            "Breach": 0,
+            "Brimstone": 0,
+            "Chamber": 0,
+            "Cypher": 0,
+            "Jett": 0,
+            "kay/0": 0,
+            "Killjoy": 0,
+            "Neon": 0,
+            "omen": 0,
+            "Phoenix": 0,
+            "Raze": 0,
+            "Reyna": 0,
+            "Sage": 0,
+            "Skye": 0,
+            "Sova:": 0,
+            "Viper": 0,
+            "Yoru": 0
+        },
+        "lastmatch": "2022-03-10 21:25:42.519232-03:00",
+        "lasteam": [
+            "Rick",
+            "Ian",
+            "Cipricius",
+            "Matheus",
+            "Iuri"
+        ]
+    },
+    {
+        "playername": "Italo",
+        "status": true,
+        "Rankinfo": {
+            "wins": 0,
+            "loses": 0,
+            "elo": 600
+        },
+        "history": {
+            "Astra": 0,
+            "Breach": 0,
+            "Brimstone": 0,
+            "Chamber": 0,
+            "Cypher": 0,
+            "Jett": 0,
+            "kay/0": 0,
+            "Killjoy": 0,
+            "Neon": 0,
+            "omen": 0,
+            "Phoenix": 0,
+            "Raze": 0,
+            "Reyna": 0,
+            "Sage": 0,
+            "Skye": 0,
+            "Sova:": 0,
+            "Viper": 0,
+            "Yoru": 0
+        },
+        "lastmatch": "2022-03-10 21:25:42.519232-03:00",
+        "lasteam": [
+            "Italo",
+            "Alvin",
+            "Guiga",
+            "Lucas",
+            "Pedro"
+        ]
+    },
+    {
+        "playername": "Pex",
+        "status": false,
+        "Rankinfo": {
+            "wins": 0,
+            "loses": 0,
+            "elo": 400
+        },
+        "history": {
+            "Astra": 0,
+            "Breach": 0,
+            "Brimstone": 0,
+            "Chamber": 0,
+            "Cypher": 0,
+            "Jett": 0,
+            "kay/0": 0,
+            "Killjoy": 0,
+            "Neon": 0,
+            "omen": 0,
+            "Phoenix": 0,
+            "Raze": 0,
+            "Reyna": 0,
+            "Sage": 0,
+            "Skye": 0,
+            "Sova:": 0,
+            "Viper": 0,
+            "Yoru": 0
+        }
+    },
+    {
+        "playername": "Diteck",
+        "status": false,
+        "Rankinfo": {
+            "wins": 0,
+            "loses": 0,
+            "elo": 400
+        },
+        "history": {
+            "Astra": 0,
+            "Breach": 0,
+            "Brimstone": 0,
+            "Chamber": 0,
+            "Cypher": 0,
+            "Jett": 0,
+            "kay/0": 0,
+            "Killjoy": 0,
+            "Neon": 0,
+            "omen": 0,
+            "Phoenix": 0,
+            "Raze": 0,
+            "Reyna": 0,
+            "Sage": 0,
+            "Skye": 0,
+            "Sova:": 0,
+            "Viper": 0,
+            "Yoru": 0
+        }
+    },
+    {
+        "playername": "Dpi",
+        "status": false,
+        "Rankinfo": {
+            "wins": 0,
+            "loses": 0,
+            "elo": 300
+        },
+        "history": {
+            "Astra": 0,
+            "Breach": 0,
+            "Brimstone": 0,
+            "Chamber": 0,
+            "Cypher": 0,
+            "Jett": 0,
+            "kay/0": 0,
+            "Killjoy": 0,
+            "Neon": 0,
+            "omen": 0,
+            "Phoenix": 0,
+            "Raze": 0,
+            "Reyna": 0,
+            "Sage": 0,
+            "Skye": 0,
+            "Sova:": 0,
+            "Viper": 0,
+            "Yoru": 0
+        }
+    },
+    {
+        "playername": "George",
+        "status": false,
+        "Rankinfo": {
+            "wins": 0,
+            "loses": 0,
+            "elo": 100
+        },
+        "history": {
+            "Astra": 0,
+            "Breach": 0,
+            "Brimstone": 0,
+            "Chamber": 0,
+            "Cypher": 0,
+            "Jett": 0,
+            "kay/0": 0,
+            "Killjoy": 0,
+            "Neon": 0,
+            "omen": 0,
+            "Phoenix": 0,
+            "Raze": 0,
+            "Reyna": 0,
+            "Sage": 0,
+            "Skye": 0,
+            "Sova:": 0,
+            "Viper": 0,
+            "Yoru": 0
+        }
+    },
+    {
+        "playername": "Bene",
+        "status": false,
+        "Rankinfo": {
+            "wins": 0,
+            "loses": 0,
+            "elo": 300
+        },
+        "history": {
+            "Astra": 0,
+            "Breach": 0,
+            "Brimstone": 0,
+            "Chamber": 0,
+            "Cypher": 0,
+            "Jett": 0,
+            "kay/0": 0,
+            "Killjoy": 0,
+            "Neon": 0,
+            "omen": 0,
+            "Phoenix": 0,
+            "Raze": 0,
+            "Reyna": 0,
+            "Sage": 0,
+            "Skye": 0,
+            "Sova:": 0,
+            "Viper": 0,
+            "Yoru": 0
+        }
     }
 ]
