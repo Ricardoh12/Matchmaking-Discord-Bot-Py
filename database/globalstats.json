@@ -1,19 +1,19 @@
 [
     {
         "time1": [
-            "Rick",
-            "Ian",
-            "Cipricius",
-            "Matheus",
-            "Iuri"
-        ],
-        "time2": [
             "Italo",
-            "Alvin",
+            "Pedro",
             "Guiga",
             "Lucas",
-            "Pedro"
+            "Chaveiro"
         ],
-        "mc": 0
+        "time2": [
+            "Ian",
+            "Iuri",
+            "Rick",
+            "Matheus",
+            "Alvin"
+        ],
+        "mc": 10
     }
 ]

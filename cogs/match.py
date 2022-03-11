@@ -67,15 +67,22 @@ class Match(commands.Cog):
                                     Pontostime2 += unit["Rankinfo"]["elo"]
 
                         Match = Pontostime1 - Pontostime2
-                        if Match <= 150:
-                            if Match >= -150:
+                        if Match <= 0:
+                            if Match >= -0:
                                 print(Match)
                                 break
                         else:
                             print("koe7")
                             continue
 
-                    await reply.edit(content=f"O time 1 é:{Time1} e o time 2 será:{Time2}. ")
+                    await reply.edit(content=f"O time 1 é:{Time1} e o time 2 será:{Time2}.\n"
+                                             f"\n"
+                                             f"A diferença de pontos entre os times é:{Match}\n"
+                                             f"\n"
+                                             f"Ao final da partida digite >addwin1 ou addwin2 a depender"
+                                             f"do time que vencer\n"
+                                             f"\n"
+                                             f"Bom Jogo! ")
 
                     fuso = pytz.timezone('Etc/GMT+3')
                     hora = (datetime.datetime.now(fuso) + datetime.timedelta(hours=2))
